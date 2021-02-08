@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Hero{
+            constructor(){
+                this.HP = 100;
+            }
+
+            showHP(){
+                console.log(`HP : ${this.HP}`);
+            }
+
+            run(){
+                console.log("HP 값 10 감소");
+                this.HP -= 10;
+            }
+        }
+
+        class Superman extends Hero{
+            fly(){
+                console.log("HP 값 20 감소");
+                this.HP -= 20;
+            }
+        }
+
+        let superMan = new Superman();
+        
+        superMan.fly();
+        superMan.showHP();
+    </script>
+</body>
+</html>
