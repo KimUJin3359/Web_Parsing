@@ -12,44 +12,44 @@
   - split : split(java script)
   - 문자열을 숫자로 : stoi(C++) vs Number(java script)
   - 숫자를 문자열로 : to_string(C++) vs String(java script)
-- [실습1](https://github.com/KimUJin3359/Web_Parsing/blob/master/001.js)
+- [실습1](https://github.com/KimUJin3359/Web_StringParsing/blob/master/Parsing/001.js)
   - 세 문자열 입력받기(띄어쓰기로 구분/배열에 하나씩 넣고 alert 출력)
-- [실습2](https://github.com/KimUJin3359/Web_Parsing/blob/master/002.js)
+- [실습2](https://github.com/KimUJin3359/Web_StringParsing/blob/master/Parsing/002.js)
   - 문자열의 값이 같은지를 판단해 각각의 결과 출력
-- [실습3](https://github.com/KimUJin3359/Web_Parsing/blob/master/003.js)
+- [실습3](https://github.com/KimUJin3359/Web_StringParsing/blob/master/Parsing/003.last_index.html)
   - 문자열을 +로 연결하여, 마지막 글자부터 짝수 index의 문자 배열 생성 및 출력
 
 ### Parsing Method
 - indexOf('찾을 문자열', 검색시작 index);
   - 못 찾는 경우 -1 리턴
   - 대/소문자 구분
-  - [실습1](https://github.com/KimUJin3359/Web_Parsing/blob/master/004.js)
+  - [실습1](https://github.com/KimUJin3359/Web_StringParsing/blob/master/Parsing_Method/004.js)
    - C가 처음 발견되는 index 및 존재하는 모든 index 출력
-  - [실습2](https://github.com/KimUJin3359/Web_Parsing/blob/master/006.js)
+  - [실습2](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/006.js)
     - 문자열에서 ABC가 몇 개인가
-  - [실습3](https://github.com/KimUJin3359/Web_Parsing/blob/master/007.js)
+  - [실습3](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/007.js)
    - 5개의 문자열 중 가장 많이 등장하는 문자열 출력
 - substr(시작 index, 글자수)
   - 특정 index부터 글자 수 만큼 문자열을 얻는 메소드
 - substring(시작 index, 끝 index)
   - 특정 index부터 끝 index 전까지 문자열을 얻는 메소드
-  - [실습4](https://github.com/KimUJin3359/Web_Parsing/blob/master/008.js)
+  - [실습4](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/008.js)
     - 숫자 2개를 입력받아 x ~ y까지의 문자열을 뽑아내서 출력
-  - [실습5](https://github.com/KimUJin3359/Web_Parsing/blob/master/009.js)
+  - [실습5](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/009.js)
     - 대괄호 안에 있는 숫자 + 1의 값을 출력
-  - [실습6](https://github.com/KimUJin3359/Web_Parsing/blob/master/010.js)
+  - [실습6](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/010.js)
     - 대괄호 안에 있는 모든 숫자들의 합 구하기
 - insert(전체문자열, 넣을 index, 넣을문자열)
-  - [실습7](https://github.com/KimUJin3359/Web_Parsing/blob/master/011.js)
+  - [실습7](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/011.js)
 - erase(전체문자열, start index, 지울 글자수)
-  - [실습8](https://github.com/KimUJin3359/Web_Parsing/blob/master/012.js)
+  - [실습8](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/012.js)
 - replace(/문자열/g, "바꿀 문자열")
-  - [실습9](https://github.com/KimUJin3359/Web_Parsing/blob/master/013.js)
+  - [실습9](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/013.js)
 - split()
   - split("") : 한 글자씩 Array로 저장
   - split("|") : Bar를 구분기호로 Array로 저장
-  - [실습10](https://github.com/KimUJin3359/Web_Parsing/blob/master/014.js)
-- [실습11](https://github.com/KimUJin3359/Web_Parsing/blob/master/015.js)
+  - [실습10](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/014.js)
+- [실습11](https://github.com/KimUJin3359/Web_Parsing/blob/master/Parsing_Method/015.js)
   - co.kr / .com을 모두 .net으로 변경
   - \|\| 구분 기호로 분류
   - id만 추출하여 배열에 넣기 및 출력
@@ -107,11 +107,11 @@
 
 ### Class
 - 속성(멤버 변수)는 constructor에서만 추가 가능
-  - [실습1](https://github.com/KimUJin3359/Web_Parsing/blob/master/020.class.html)
+  - [실습1](https://github.com/KimUJin3359/Web_StringParsing/blob/master/Class/020.class.html)
     - batman Instance 만들기(showHP, run)
 - class 상속
   - extends 키워드를 이용하여 다른 클래스 상속
-  - [실습2](https://github.com/KimUJin3359/Web_Parsing/blob/master/021.heritance.html)
+  - [실습2](https://github.com/KimUJin3359/Web_Parsing/blob/master/Class/021.heritance.html)
 
 
   
